@@ -1,0 +1,109 @@
+[{
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Test/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Test",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Test/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Test/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/DeepShallowCopy/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/DeepShallowCopy",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/DeepShallowCopy/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/DeepShallowCopy/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/SimpleFunctionPointer/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/SimpleFunctionPointer",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/SimpleFunctionPointer/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/SimpleFunctionPointer/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/AddAfter/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/AddAfter",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/AddAfter/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/AddAfter/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/ListTransfer/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/ListTransfer",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/ListTransfer/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/ListTransfer/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/RemoveAt/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/RemoveAt",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/RemoveAt/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/RemoveAt/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/QueueLength/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/QueueLength",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/QueueLength/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/QueueLength/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Queue/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Queue",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Queue/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Queue/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/GenericPointers/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/GenericPointers",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/GenericPointers/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/GenericPointers/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Stack/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Stack",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Stack/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Stack/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Calloc/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Calloc",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Calloc/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Calloc/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/AddressArithmetic3/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/AddressArithmetic3",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/AddressArithmetic3/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/AddressArithmetic3/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/MultipleIndirection/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/MultipleIndirection",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/MultipleIndirection/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/MultipleIndirection/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/ArraysAndAddresses/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/ArraysAndAddresses",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/ArraysAndAddresses/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/ArraysAndAddresses/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Malloc/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Malloc",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Malloc/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Malloc/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/StringsAndPointers/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/StringsAndPointers",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/StringsAndPointers/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/StringsAndPointers/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Realloc/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Realloc",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Realloc/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Realloc/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/MultipleIndirectionStrings/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/MultipleIndirectionStrings",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/MultipleIndirectionStrings/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/MultipleIndirectionStrings/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/PointerBasics/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/PointerBasics",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/PointerBasics/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/PointerBasics/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CommandlineArgs/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CommandlineArgs",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CommandlineArgs/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CommandlineArgs/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/AddressArithmetic1/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/AddressArithmetic1",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/AddressArithmetic1/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/AddressArithmetic1/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/FunctionPointerArray/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/FunctionPointerArray",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/FunctionPointerArray/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/FunctionPointerArray/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/SingleLinkedList/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/SingleLinkedList",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/SingleLinkedList/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/SingleLinkedList/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/DoubleLinkedList1/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/DoubleLinkedList1",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/DoubleLinkedList1/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/DoubleLinkedList1/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CommonProblems/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CommonProblems",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CommonProblems/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CommonProblems/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/ReturnStrings/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/ReturnStrings",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/ReturnStrings/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/ReturnStrings/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }, {
+  "file": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/AddressArithmetic2/main.c",
+  "directory": "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/AddressArithmetic2",
+  "command": "clang  -c /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/AddressArithmetic2/main.c -o /media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/AddressArithmetic2/main.c.o  -I/usr/include/c++/7 -I/usr/include/x86_64-linux-gnu/c++/7 -I/usr/include/c++/7/backward -I/usr/lib/gcc/x86_64-linux-gnu/7/include -I/usr/local/include -I/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed -I/usr/include/x86_64-linux-gnu -I/usr/include -I. -I.  -g  -O0  -Wall"
+ }]
