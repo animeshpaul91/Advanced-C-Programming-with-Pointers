@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="CPointers" Database="" Version="10.0.0">
   <Project Name="PointerBasics" Path="PointerBasics/PointerBasics.project" Active="No"/>
-  <Project Name="StringsAndPointers" Path="StringsAndPointers/StringsAndPointers.project" Active="Yes"/>
+  <Project Name="StringsAndPointers" Path="StringsAndPointers/StringsAndPointers.project" Active="No"/>
   <Project Name="ArraysAndAddresses" Path="ArraysAndAddresses/ArraysAndAddresses.project" Active="No"/>
-  <Project Name="MultipleIndirection" Path="MultipleIndirection/MultipleIndirection.project" Active="No"/>
+  <Project Name="MultipleIndirection" Path="MultipleIndirection/MultipleIndirection.project" Active="Yes"/>
   <Project Name="MultipleIndirectionStrings" Path="MultipleIndirectionStrings/MultipleIndirectionStrings.project" Active="No"/>
   <Project Name="GenericPointers" Path="GenericPointers/GenericPointers.project" Active="No"/>
   <Project Name="CommandlineArgs" Path="CommandlineArgs/CommandlineArgs.project" Active="No"/>
