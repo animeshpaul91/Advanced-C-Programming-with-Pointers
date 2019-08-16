@@ -15,7 +15,7 @@ char * string_function(char *astring) {
 }
 
 int main(int argc, char **argv) {
-	printf(string_function("Fred"));	
-    printf(string_function("Gussie Fink-Nottle"));	
+	printf("%s", string_function("Fred"));	
+    printf("%s", string_function("Gussie Fink-Nottle"));	
 	return 0;
 }

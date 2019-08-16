@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ CommandlineArgs - Debug ]----------"
-	@cd "CommandlineArgs" && "$(MAKE)" -f  "CommandlineArgs.mk"
+	@echo "----------Building project:[ Malloc - Debug ]----------"
+	@cd "Malloc" && "$(MAKE)" -f  "Malloc.mk"
 clean:
-	@echo "----------Cleaning project:[ CommandlineArgs - Debug ]----------"
-	@cd "CommandlineArgs" && "$(MAKE)" -f  "CommandlineArgs.mk" clean
+	@echo "----------Cleaning project:[ Malloc - Debug ]----------"
+	@cd "Malloc" && "$(MAKE)" -f  "Malloc.mk" clean

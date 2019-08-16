@@ -36,8 +36,9 @@ int main(int argc, char **argv) {
 	// now print out the first item in the array
 	// - a cast is now needed to let the compiler know what sort of thing is being pointed to by the generic pointer
 	printf("item pointed to by gp is %d\n", *(int*)gp);
-	// the cast tells the compiler what the address type is and so we can do address arthimetic
-	gp = (int*)gp + 1;
+	// the cast tells the compiler what the address type is and so we can do address arthimetic. The * at the beginning functions as
+	//an indirection to fetch the integer value.
+	gp = (int*)gp + 1; //Tells the compiler to increment 4 bytes
 	printf("item pointed to by gp is now %d\n", *(int*)gp);
     
     
@@ -47,8 +48,7 @@ int main(int argc, char **argv) {
 	// - a cast is now needed to let the compiler know this is a pointer to a pointer
 	printf("item pointed to by gp is %s\n", *(char**)gp);
 	// the cast tells the compiler what the address type is and so we can do address arthimetic
-	gp = (char**)gp + 1;
+	gp = (char**)gp + 1; //Tells the compiler to increment 1 byte
 	printf("item pointed to by gp is now %s\n", *(char**)gp);
-    
 	return 0;
 }
