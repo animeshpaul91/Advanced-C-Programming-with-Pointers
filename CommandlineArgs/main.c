@@ -19,7 +19,7 @@ int main(int argc, char **argv) {
     // to the start of the array of args (**argv)
 	for (i = 0; i < argc; i++) {
 		printf("arg %d is %s\n", i, *argv);	// prints arg pointed to by argv
-        argv += 1;	
+        argv ++;	
 	}
  	return 0;
 }

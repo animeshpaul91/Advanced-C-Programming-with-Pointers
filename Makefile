@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ MultipleIndirection - Debug ]----------"
-	@cd "MultipleIndirection" && "$(MAKE)" -f  "MultipleIndirection.mk"
+	@echo "----------Building project:[ CommandlineArgs - Debug ]----------"
+	@cd "CommandlineArgs" && "$(MAKE)" -f  "CommandlineArgs.mk"
 clean:
-	@echo "----------Cleaning project:[ MultipleIndirection - Debug ]----------"
-	@cd "MultipleIndirection" && "$(MAKE)" -f  "MultipleIndirection.mk" clean
+	@echo "----------Cleaning project:[ CommandlineArgs - Debug ]----------"
+	@cd "CommandlineArgs" && "$(MAKE)" -f  "CommandlineArgs.mk" clean
