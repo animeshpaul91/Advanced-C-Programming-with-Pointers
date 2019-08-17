@@ -18,7 +18,7 @@ int main()
     MYSTRUCT *p, *q;
     void* v;
 
-    printf("size of MYSTRUCT = %d\n", sizeof(MYSTRUCT));
+    printf("size of MYSTRUCT = %d\nsize of MYSTRUCT * = %d\n", sizeof(MYSTRUCT), sizeof(MYSTRUCT*));
     // IMPORTANT NOTE: the size of MYSTRUCT is NOT always 24 bytes! It will vary according to the processor architecture
     // ...
     // ... because some processor architectures will require a 'double' (say) to be at an address which is multiple of 8
@@ -63,7 +63,9 @@ int main()
     // bytes in total)
     printf("Struct at index 3\n");
     for(int i = 0; i < sizeof(MYSTRUCT) / sizeof(int); i++) {
-        printf("v[%d]=%d\n", i, ((int*)v)[i]);
+        //printf("v[%d]=%d\n", i, ((int*)v)[i]);
+		printf("v[%d]=%d\n", i, *((int*)v));
+		v = (int*) v + 1;
     }
 
     return 0;

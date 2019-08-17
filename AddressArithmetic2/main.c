@@ -22,8 +22,8 @@ int main()
     long int* pf;
 
     // first let's look at the sizes of our array types
-    printf("sizes are: int %d; float %d; double %d; long long int %d; short int %d; long int %d\n", sizeof(int),
-        sizeof(float), sizeof(double), sizeof(long long int), sizeof(short int), sizeof(long int));
+    printf("sizes are: int %d; float %d; double %d; long long int %d; short int %d; long int %d; long double %d\n", sizeof(int),
+        sizeof(float), sizeof(double), sizeof(long long int), sizeof(short int), sizeof(long int), sizeof(long double));
     // NOTE: because of historical reasons a plain 'int' can vary in size between machine architectures. On some
     // microprocessors it is 2 bytes long while on Intel processors it is 4 bytes
     // if we want to be explicit (and more portable), then use 'long int' for a 32 bit integer instead of just 'int'
