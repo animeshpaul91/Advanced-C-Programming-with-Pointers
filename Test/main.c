@@ -1,14 +1,20 @@
 #include <stdio.h>
-
+#include <malloc.h>
 int main(int argc, char **argv)
 {
-	int a,b,c;
+	int i,n;
 	int *p;
-	printf("\nEnter any two numbers\n");
-	scanf("%d\%d",&a,&b);
-	c = a+b;
-	p = &c;
-	printf("\nThe Sum is = %d\n", *p);
-	printf("\nThe Memory Address of the variable that stores the sum is = %u\n", p);
+	printf("Enter the Number of integers\n");
+	scanf("%d",&n);
+	p = (int*)malloc(n * sizeof(int)); //Dynamically allocate an Array
+	for (i = 0; i<n;i++)
+	{
+		p[i] = i;
+	}
+	
+	printf("The array is\n");
+	for (i=0;i<n;i++)
+		printf("%d\t", p[i]);
+	printf("\n");
 	return 0;
 }

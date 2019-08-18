@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CPointers.workspace">
-  <int Value="0" Name="m_selectedTab"/>
+  <int Value="1" Name="m_selectedTab"/>
   <wxString Value="/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CPointers.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Realloc/main.c" Name="FileName"/>
+      <wxString Value="/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CommandlineArgs/main.c" Name="FileName"/>
+      <int Value="3" Name="FirstVisibleLine"/>
+      <int Value="24" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CommandlineArgs/pointer2pointer.c" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
+      <int Value="10" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

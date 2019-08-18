@@ -6,7 +6,7 @@
   <Project Name="MultipleIndirection" Path="MultipleIndirection/MultipleIndirection.project" Active="No"/>
   <Project Name="MultipleIndirectionStrings" Path="MultipleIndirectionStrings/MultipleIndirectionStrings.project" Active="No"/>
   <Project Name="GenericPointers" Path="GenericPointers/GenericPointers.project" Active="No"/>
-  <Project Name="CommandlineArgs" Path="CommandlineArgs/CommandlineArgs.project" Active="Yes"/>
+  <Project Name="CommandlineArgs" Path="CommandlineArgs/CommandlineArgs.project" Active="No"/>
   <Project Name="Malloc" Path="Malloc/Malloc.project" Active="No"/>
   <Project Name="Realloc" Path="Realloc/Realloc.project" Active="No"/>
   <Project Name="Calloc" Path="Calloc/Calloc.project" Active="No"/>
@@ -26,7 +26,7 @@
   <Project Name="FunctionPointerArray" Path="FunctionPointerArray/FunctionPointerArray.project" Active="No"/>
   <Project Name="DeepShallowCopy" Path="DeepShallowCopy/DeepShallowCopy.project" Active="No"/>
   <Project Name="CommonProblems" Path="CommonProblems/CommonProblems.project" Active="No"/>
-  <Project Name="Test" Path="Test/Test.project" Active="No"/>
+  <Project Name="Test" Path="Test/Test.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
