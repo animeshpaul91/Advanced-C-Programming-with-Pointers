@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ AddressArithmetic3 - Debug ]----------"
-	@cd "AddressArithmetic3" && "$(MAKE)" -f  "AddressArithmetic3.mk"
+	@echo "----------Building project:[ CommandlineArgs - Debug ]----------"
+	@cd "CommandlineArgs" && "$(MAKE)" -f  "CommandlineArgs.mk"
 clean:
-	@echo "----------Cleaning project:[ AddressArithmetic3 - Debug ]----------"
-	@cd "AddressArithmetic3" && "$(MAKE)" -f  "AddressArithmetic3.mk" clean
+	@echo "----------Cleaning project:[ CommandlineArgs - Debug ]----------"
+	@cd "CommandlineArgs" && "$(MAKE)" -f  "CommandlineArgs.mk" clean

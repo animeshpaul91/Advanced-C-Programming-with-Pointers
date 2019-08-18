@@ -13,7 +13,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=animesh
-Date                   :=16/08/19
+Date                   :=17/08/19
 CodeLitePath           :=/home/animesh/.codelite
 LinkerName             :=/usr/bin/g++
 SharedObjectLinkerName :=/usr/bin/g++ -shared -fPIC
@@ -60,7 +60,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=$(IntermediateDirectory)/main.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/pointer2pointer.c$(ObjectSuffix) $(IntermediateDirectory)/main.c$(ObjectSuffix) 
 
 
 
@@ -91,6 +91,14 @@ PreBuild:
 ##
 ## Objects
 ##
+$(IntermediateDirectory)/pointer2pointer.c$(ObjectSuffix): pointer2pointer.c $(IntermediateDirectory)/pointer2pointer.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CommandlineArgs/pointer2pointer.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/pointer2pointer.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/pointer2pointer.c$(DependSuffix): pointer2pointer.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/pointer2pointer.c$(ObjectSuffix) -MF$(IntermediateDirectory)/pointer2pointer.c$(DependSuffix) -MM pointer2pointer.c
+
+$(IntermediateDirectory)/pointer2pointer.c$(PreprocessSuffix): pointer2pointer.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/pointer2pointer.c$(PreprocessSuffix) pointer2pointer.c
+
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
 	$(CC) $(SourceSwitch) "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CommandlineArgs/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c

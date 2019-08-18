@@ -3,7 +3,7 @@
 /* This program displays any 
  * arguments that were passed to it 
  */
-
+void pointer2pointer();
 int main(int argc, char **argv) {      
     int i;    
         
@@ -21,5 +21,6 @@ int main(int argc, char **argv) {
 		printf("arg %d is %s\n", i, *argv);	// prints arg pointed to by argv
         argv ++;	
 	}
+	pointer2pointer();
  	return 0;
 }

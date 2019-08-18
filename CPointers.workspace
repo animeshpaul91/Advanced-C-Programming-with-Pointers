@@ -6,14 +6,14 @@
   <Project Name="MultipleIndirection" Path="MultipleIndirection/MultipleIndirection.project" Active="No"/>
   <Project Name="MultipleIndirectionStrings" Path="MultipleIndirectionStrings/MultipleIndirectionStrings.project" Active="No"/>
   <Project Name="GenericPointers" Path="GenericPointers/GenericPointers.project" Active="No"/>
-  <Project Name="CommandlineArgs" Path="CommandlineArgs/CommandlineArgs.project" Active="No"/>
+  <Project Name="CommandlineArgs" Path="CommandlineArgs/CommandlineArgs.project" Active="Yes"/>
   <Project Name="Malloc" Path="Malloc/Malloc.project" Active="No"/>
   <Project Name="Realloc" Path="Realloc/Realloc.project" Active="No"/>
   <Project Name="Calloc" Path="Calloc/Calloc.project" Active="No"/>
   <Project Name="ReturnStrings" Path="ReturnStrings/ReturnStrings.project" Active="No"/>
   <Project Name="AddressArithmetic1" Path="AddressArithmetic1/AddressArithmetic1.project" Active="No"/>
   <Project Name="AddressArithmetic2" Path="AddressArithmetic2/AddressArithmetic2.project" Active="No"/>
-  <Project Name="AddressArithmetic3" Path="AddressArithmetic3/AddressArithmetic3.project" Active="Yes"/>
+  <Project Name="AddressArithmetic3" Path="AddressArithmetic3/AddressArithmetic3.project" Active="No"/>
   <Project Name="SingleLinkedList" Path="SingleLinkedList/SingleLinkedList.project" Active="No"/>
   <Project Name="DoublyLinkedList" Path="DoubleLinkedList1/DoubleLinkedList1.project" Active="No"/>
   <Project Name="Stack" Path="Stack/Stack.project" Active="No"/>
