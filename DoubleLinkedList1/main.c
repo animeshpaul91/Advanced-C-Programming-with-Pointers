@@ -11,6 +11,8 @@ typedef struct listitem {
 	// NOTE: this example just illustrates how doubly linked lists work 
     // in the next example I'll show you how to use them
 
+//A very efficient implementation of Doubly Linked List without using NULL's.
+
 int main() {
 	LISTITEM *temp, head;
 
