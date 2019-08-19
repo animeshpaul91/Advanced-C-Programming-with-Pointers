@@ -15,7 +15,7 @@
   <Project Name="AddressArithmetic2" Path="AddressArithmetic2/AddressArithmetic2.project" Active="No"/>
   <Project Name="AddressArithmetic3" Path="AddressArithmetic3/AddressArithmetic3.project" Active="No"/>
   <Project Name="SingleLinkedList" Path="SingleLinkedList/SingleLinkedList.project" Active="No"/>
-  <Project Name="DoublyLinkedList" Path="DoubleLinkedList1/DoubleLinkedList1.project" Active="No"/>
+  <Project Name="DoublyLinkedList" Path="DoubleLinkedList1/DoubleLinkedList1.project" Active="Yes"/>
   <Project Name="Stack" Path="Stack/Stack.project" Active="No"/>
   <Project Name="Queue" Path="Queue/Queue.project" Active="No"/>
   <Project Name="QueueLength" Path="QueueLength/QueueLength.project" Active="No"/>
@@ -26,7 +26,7 @@
   <Project Name="FunctionPointerArray" Path="FunctionPointerArray/FunctionPointerArray.project" Active="No"/>
   <Project Name="DeepShallowCopy" Path="DeepShallowCopy/DeepShallowCopy.project" Active="No"/>
   <Project Name="CommonProblems" Path="CommonProblems/CommonProblems.project" Active="No"/>
-  <Project Name="Test" Path="Test/Test.project" Active="Yes"/>
+  <Project Name="Test" Path="Test/Test.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>

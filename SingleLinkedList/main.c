@@ -7,7 +7,6 @@ typedef struct listitem {
 	int data;					// some data
 } LISTITEM;
 
-
 int main() {
 	LISTITEM *listhead, *temp;
 
