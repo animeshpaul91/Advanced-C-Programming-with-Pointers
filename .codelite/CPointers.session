@@ -4,9 +4,9 @@
   <wxString Value="/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CPointers.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/DoubleLinkedList1/main.c" Name="FileName"/>
-      <int Value="27" Name="FirstVisibleLine"/>
-      <int Value="52" Name="CurrentLine"/>
+      <wxString Value="/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Queue/main.c" Name="FileName"/>
+      <int Value="6" Name="FirstVisibleLine"/>
+      <int Value="21" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
