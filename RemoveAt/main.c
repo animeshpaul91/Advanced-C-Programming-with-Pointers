@@ -90,7 +90,7 @@ LISTITEM* remove_at(LISTHDR *queue, int position) {
 			// NOTE: setting the pointers to NULL for the removed item isn't necessary
 			// but it might be a good idea to avoid accidental reuse of the pointers
 			// since temp's next and prev still point into elements of the queue
-			temp->next = NULL;
+			temp->next = NULL; //Good Programming Practice
 			temp->prev = NULL;
 			break;
 		}
@@ -104,7 +104,6 @@ LISTITEM* remove_at(LISTHDR *queue, int position) {
 int main() {
 	LISTITEM *temp;
 	int requested_index;
-	char input[50];
 
 	// first, make an empty queue
 	// ... which is a queue where the header points to itself and there are no items in it
@@ -117,13 +116,13 @@ int main() {
 		enqueue(&head, temp);	// and put it in the queue
 	}
     
-    // setbuf(stdout, NULL); // NOTE: If you are using an IDE such as CodeLite and nothing is initially shown 
+    //setbuf(stdout, NULL); // NOTE: If you are using an IDE such as CodeLite and nothing is initially shown 
                              // in its Terminal you may need to uncomment this to turn off buffering
                              
 	printf("the length of the queue is %d\n", queue_length(&head));
 	// remove at a user entered index
 	printf("enter the index of the queue entry ... ");
-	requested_index = atoi(gets(input)); 
+	scanf("%d", &requested_index);
 	//do {							// keep going ...
 		temp = remove_at(&head, requested_index);	// if we can't do it we will get NULL returned
 		if (temp != NULL) {

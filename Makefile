@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ QueueLength - Debug ]----------"
-	@cd "QueueLength" && "$(MAKE)" -f  "QueueLength.mk"
+	@echo "----------Building project:[ RemoveAt - Debug ]----------"
+	@cd "RemoveAt" && "$(MAKE)" -f  "RemoveAt.mk"
 clean:
-	@echo "----------Cleaning project:[ QueueLength - Debug ]----------"
-	@cd "QueueLength" && "$(MAKE)" -f  "QueueLength.mk" clean
+	@echo "----------Cleaning project:[ RemoveAt - Debug ]----------"
+	@cd "RemoveAt" && "$(MAKE)" -f  "RemoveAt.mk" clean

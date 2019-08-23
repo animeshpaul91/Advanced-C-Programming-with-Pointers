@@ -2,7 +2,6 @@
 // here, I'll show you how you would normally use them as a 'queue'
 // a queue is a 'first-in, first-out' (FIFO) structure
 // NOTE: you can also easily insert and remove items at any point in the queue if you wish, but it is more common to keep to FIFO operations
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
