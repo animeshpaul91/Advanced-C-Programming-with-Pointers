@@ -104,7 +104,7 @@ LISTITEM* add_after(LISTHDR *queue, int position, LISTITEM* item) {
 int main() {
 	LISTITEM *temp;
 	int requested_index;
-	char input[50];
+	//char input[50];
 
 	// first, make an empty queue
 	// ... which is a queue where the header points to itself and there are no items in it
@@ -122,7 +122,8 @@ int main() {
 	printf("the length of the queue is %d\n", queue_length(&head));
 	// add item at a user entered index
 	printf("enter the index of the queue entry ... ");
-	requested_index = atoi(gets(input));
+	//requested_index = atoi(gets(input));
+	scanf("%d", &requested_index);
 	temp = malloc(sizeof(LISTITEM));
 	printf("address of new item = %p\n", temp);
 	temp->data = -requested_index;			// set payload to a -ve number so we can see where it is when we print out the queue

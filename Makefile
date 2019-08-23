@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ RemoveAt - Debug ]----------"
-	@cd "RemoveAt" && "$(MAKE)" -f  "RemoveAt.mk"
+	@echo "----------Building project:[ AddAfter - Debug ]----------"
+	@cd "AddAfter" && "$(MAKE)" -f  "AddAfter.mk"
 clean:
-	@echo "----------Cleaning project:[ RemoveAt - Debug ]----------"
-	@cd "RemoveAt" && "$(MAKE)" -f  "RemoveAt.mk" clean
+	@echo "----------Cleaning project:[ AddAfter - Debug ]----------"
+	@cd "AddAfter" && "$(MAKE)" -f  "AddAfter.mk" clean

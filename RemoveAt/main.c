@@ -116,14 +116,14 @@ int main() {
 		enqueue(&head, temp);	// and put it in the queue
 	}
     
-    //setbuf(stdout, NULL); // NOTE: If you are using an IDE such as CodeLite and nothing is initially shown 
+    setbuf(stdout, NULL); // NOTE: If you are using an IDE such as CodeLite and nothing is initially shown 
                              // in its Terminal you may need to uncomment this to turn off buffering
                              
 	printf("the length of the queue is %d\n", queue_length(&head));
 	// remove at a user entered index
 	printf("enter the index of the queue entry ... ");
 	scanf("%d", &requested_index);
-	//do {							// keep going ...
+	do {							// keep going ...
 		temp = remove_at(&head, requested_index);	// if we can't do it we will get NULL returned
 		if (temp != NULL) {
 			printf("OK: data removed at %d is %d\n", requested_index, temp->data);
@@ -132,7 +132,7 @@ int main() {
 		else {
 			printf("ERROR: cannot remove at %d\n", requested_index);
 		}
-//	} while (temp != NULL);
+	} while (temp != NULL);
 
 	// see what we've got left
 	printf("the length of the queue is %d\n", queue_length(&head));
