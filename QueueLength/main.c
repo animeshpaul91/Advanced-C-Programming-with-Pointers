@@ -43,26 +43,19 @@ LISTITEM* dequeue(LISTHDR *queue) {
 	return temp;
 }
 
-// returns the number of items in a queue
 int queue_length(LISTHDR* queue) {
 	LISTITEM *temp;
 	int length;
 
 	temp = queue->first;			// get the 'first' item
-	length = 0;						// initialize the length
-	do {
-		// check for an empty queue or if we've gone through the whole queue
-		if (temp == (LISTITEM*)queue) {
-			temp = NULL;			// this will break out of the do ... while loop
-			break;
-		}
+	length = 0;
+	while(temp != (LISTITEM*)queue)					// initialize the length
+	{
 		temp = temp->next;			// get the next item in the queue
 		length = length + 1;
-	} while (temp != NULL);
-
+	}
 	return length;
 }
-
 
 int main() {
 	LISTITEM *temp;
