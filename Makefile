@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ DeepShallowCopy - Debug ]----------"
-	@cd "DeepShallowCopy" && "$(MAKE)" -f  "DeepShallowCopy.mk"
+	@echo "----------Building project:[ CommonProblems - Debug ]----------"
+	@cd "CommonProblems" && "$(MAKE)" -f  "CommonProblems.mk"
 clean:
-	@echo "----------Cleaning project:[ DeepShallowCopy - Debug ]----------"
-	@cd "DeepShallowCopy" && "$(MAKE)" -f  "DeepShallowCopy.mk" clean
+	@echo "----------Cleaning project:[ CommonProblems - Debug ]----------"
+	@cd "CommonProblems" && "$(MAKE)" -f  "CommonProblems.mk" clean

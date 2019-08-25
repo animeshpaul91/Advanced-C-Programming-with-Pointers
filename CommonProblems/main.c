@@ -12,8 +12,8 @@
 // NOTE: if you are lucky, the C run time will trap this. On the other hand, if it doesn't and you are in a large and complex program
 // you can be in for a very long degugging session indeed!
 void problem1() {
+	//freeing twice
 	char *b;
-
 	b = (char*)malloc(10);
 	free(b);
 	free(b);			// this causes an exception in Visual Studio	
@@ -24,9 +24,9 @@ void problem2() {
 	char *b;
 
 	for (int i = 0; i < 10; i++) {
-		b = (char*)malloc(10);		
+		b = (char*)malloc(10);
+		free(b);		
 	}
-	free(b);		
 	// now we've 'lost' 9 * 10 bytes of memory
 	// we can't 'free' them because we don't have a pointer to the memory any longer
 }
@@ -46,8 +46,8 @@ void problem3() {
 
 // pointer out of scope
 char* problem4() {
-	char b[20];
-
+	char b[20];//b is a local variable stored in the stack segment of memory. It is cleaned up after the control exits the 
+    //body of this function. So the memory referened by the base address of b will contain junk characters in the main() body.
 	printf("enter your name ... ");
 	gets(b);
 	return b;
@@ -65,14 +65,16 @@ void problem5() {
     b = (char*)malloc(10);
 	b = NULL;
 	b[0] = 1;
+	//A pointer pointing to null does not point to any usable memory. You cannot use such a pointer to assign or compute a value. 
+	//This error is also known as dereferencing a null pointer. It is a serious bug.
 }
 
 int main() {
 
-	 problem1();
+	// problem1();
 	// problem2();
 	// problem3();	
-	// printf("you typed %s\n", problem4());
+	 printf("you typed %s\n", problem4());
     // problem5();
 	printf("That's all, folks!\n");
 	return 0;
