@@ -17,12 +17,12 @@
   <Project Name="SingleLinkedList" Path="SingleLinkedList/SingleLinkedList.project" Active="No"/>
   <Project Name="DoublyLinkedList" Path="DoubleLinkedList1/DoubleLinkedList1.project" Active="No"/>
   <Project Name="Stack" Path="Stack/Stack.project" Active="No"/>
-  <Project Name="Queue" Path="Queue/Queue.project" Active="Yes"/>
+  <Project Name="Queue" Path="Queue/Queue.project" Active="No"/>
   <Project Name="QueueLength" Path="QueueLength/QueueLength.project" Active="No"/>
   <Project Name="ListTransfer" Path="ListTransfer/ListTransfer.project" Active="No"/>
   <Project Name="RemoveAt" Path="RemoveAt/RemoveAt.project" Active="No"/>
   <Project Name="AddAfter" Path="AddAfter/AddAfter.project" Active="No"/>
-  <Project Name="SimpleFunctionPointer" Path="SimpleFunctionPointer/SimpleFunctionPointer.project" Active="No"/>
+  <Project Name="SimpleFunctionPointer" Path="SimpleFunctionPointer/SimpleFunctionPointer.project" Active="Yes"/>
   <Project Name="FunctionPointerArray" Path="FunctionPointerArray/FunctionPointerArray.project" Active="No"/>
   <Project Name="DeepShallowCopy" Path="DeepShallowCopy/DeepShallowCopy.project" Active="No"/>
   <Project Name="CommonProblems" Path="CommonProblems/CommonProblems.project" Active="No"/>
