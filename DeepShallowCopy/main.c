@@ -85,7 +85,7 @@ int main() {
 	for (int i = 0; i < 3; i++) {				// as before, populate the queue
 		temp = malloc(sizeof(LISTITEM));		// allocate some memory for the new queue item
 		temp->data = (char*)malloc(MAXBUFLEN);	// set the item's data to some memory
-		itoa(i, temp->data, 10);				// and set it to the character string of the index
+		sprintf(temp->data, "%d", i);			// and set it to the character string of the index
 		enqueue(&original, temp);				// and put it in the queue
 	}
 

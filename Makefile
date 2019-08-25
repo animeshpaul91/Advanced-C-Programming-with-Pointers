@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ FunctionPointerArray - Debug ]----------"
-	@cd "FunctionPointerArray" && "$(MAKE)" -f  "FunctionPointerArray.mk"
+	@echo "----------Building project:[ DeepShallowCopy - Debug ]----------"
+	@cd "DeepShallowCopy" && "$(MAKE)" -f  "DeepShallowCopy.mk"
 clean:
-	@echo "----------Cleaning project:[ FunctionPointerArray - Debug ]----------"
-	@cd "FunctionPointerArray" && "$(MAKE)" -f  "FunctionPointerArray.mk" clean
+	@echo "----------Cleaning project:[ DeepShallowCopy - Debug ]----------"
+	@cd "DeepShallowCopy" && "$(MAKE)" -f  "DeepShallowCopy.mk" clean
