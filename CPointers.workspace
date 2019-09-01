@@ -25,8 +25,9 @@
   <Project Name="SimpleFunctionPointer" Path="SimpleFunctionPointer/SimpleFunctionPointer.project" Active="No"/>
   <Project Name="FunctionPointerArray" Path="FunctionPointerArray/FunctionPointerArray.project" Active="No"/>
   <Project Name="DeepShallowCopy" Path="DeepShallowCopy/DeepShallowCopy.project" Active="No"/>
-  <Project Name="CommonProblems" Path="CommonProblems/CommonProblems.project" Active="Yes"/>
-  <Project Name="Test" Path="Test/Test.project" Active="No"/>
+  <Project Name="CommonProblems" Path="CommonProblems/CommonProblems.project" Active="No"/>
+  <Project Name="hello" Path="../Cpp/hello/hello.project" Active="No"/>
+  <Project Name="FromBook" Path="FromBook/FromBook.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -56,7 +57,7 @@
       <Project Name="FunctionPointerArray" ConfigName="Debug"/>
       <Project Name="DeepShallowCopy" ConfigName="Debug"/>
       <Project Name="CommonProblems" ConfigName="Debug"/>
-      <Project Name="Test" ConfigName="Debug"/>
+      <Project Name="FromBook" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -86,7 +87,7 @@
       <Project Name="FunctionPointerArray" ConfigName="Release"/>
       <Project Name="DeepShallowCopy" ConfigName="Release"/>
       <Project Name="CommonProblems" ConfigName="Release"/>
-      <Project Name="Test" ConfigName="Release"/>
+      <Project Name="FromBook" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
