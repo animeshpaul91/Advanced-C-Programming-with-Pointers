@@ -35,5 +35,10 @@ int main(int argc, char **argv)
 	free(t);
 	char *t1="Animesh";
 	printf("%d\n", stringcmp(s, t1));
+	
+	//An Illustration of Command Line Arguments
+	while(--argc > 0)
+		printf((argc > 1) ? "%s ":"%s\n", *++argv);
+		
 	return 0;
 }

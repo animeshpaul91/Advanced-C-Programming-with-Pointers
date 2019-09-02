@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CPointers.workspace">
-  <int Value="0" Name="m_selectedTab"/>
+  <int Value="1" Name="m_selectedTab"/>
   <wxString Value="/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/CPointers.workspace" Name="m_workspaceName"/>
-  <TabInfoArray Name="TabInfoArray"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Cpp/hello/main.c" Name="FileName"/>
+      <int Value="18" Name="FirstVisibleLine"/>
+      <int Value="38" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/FromBook/main.c" Name="FileName"/>
+      <int Value="12" Name="FirstVisibleLine"/>
+      <int Value="37" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
   <SerializedObject Name="m_breakpoints">
     <long Value="0" Name="Count"/>
   </SerializedObject>
