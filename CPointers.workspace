@@ -26,7 +26,6 @@
   <Project Name="FunctionPointerArray" Path="FunctionPointerArray/FunctionPointerArray.project" Active="No"/>
   <Project Name="DeepShallowCopy" Path="DeepShallowCopy/DeepShallowCopy.project" Active="No"/>
   <Project Name="CommonProblems" Path="CommonProblems/CommonProblems.project" Active="No"/>
-  <Project Name="hello" Path="../Cpp/hello/hello.project" Active="No"/>
   <Project Name="FromBook" Path="FromBook/FromBook.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
