@@ -1,11 +1,9 @@
 #include <stdio.h>
-//#include <sys/types.h>
 #include <unistd.h>
 
 int main()
 {
- int ret;
- int mypid;
+ int ret, mypid;
  mypid = getpid();
  printf("Before Fork, my PID is %d\n", mypid);
  ret = fork();
