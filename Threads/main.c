@@ -10,7 +10,7 @@ void print(char *str)
 	printf("%s", str);
 }
 
-void sum(int a[])
+void sum(int *a)
 {
 	int s = *a + *(a+1);
 	printf("The sum is %d\n", s);
