@@ -3,13 +3,13 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=FromBook
+ProjectName            :=Threads
 ConfigurationName      :=Debug
 WorkspaceConfiguration := $(ConfigurationName)
 WorkspacePath          :=/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers
-ProjectPath            :=/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/FromBook
-IntermediateDirectory  :=../build-$(ConfigurationName)/FromBook
-OutDir                 :=../build-$(ConfigurationName)/FromBook
+ProjectPath            :=/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Threads
+IntermediateDirectory  :=../build-$(ConfigurationName)/Threads
+OutDir                 :=../build-$(ConfigurationName)/Threads
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
@@ -60,7 +60,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=../build-$(ConfigurationName)/FromBook/main.c$(ObjectSuffix) 
+Objects0=../build-$(ConfigurationName)/Threads/main.c$(ObjectSuffix) 
 
 
 
@@ -72,18 +72,18 @@ Objects=$(Objects0)
 .PHONY: all clean PreBuild PrePreBuild PostBuild MakeIntermediateDirs
 all: MakeIntermediateDirs $(OutputFile)
 
-$(OutputFile): ../build-$(ConfigurationName)/FromBook/.d $(Objects) 
-	@mkdir -p "../build-$(ConfigurationName)/FromBook"
+$(OutputFile): ../build-$(ConfigurationName)/Threads/.d $(Objects) 
+	@mkdir -p "../build-$(ConfigurationName)/Threads"
 	@echo "" > $(IntermediateDirectory)/.d
 	@echo $(Objects0)  > $(ObjectsFileList)
 	$(LinkerName) $(OutputSwitch)$(OutputFile) @$(ObjectsFileList) $(LibPath) $(Libs) $(LinkOptions)
 
 MakeIntermediateDirs:
-	@mkdir -p "../build-$(ConfigurationName)/FromBook"
+	@mkdir -p "../build-$(ConfigurationName)/Threads"
 	@mkdir -p ""../build-$(ConfigurationName)/bin""
 
-../build-$(ConfigurationName)/FromBook/.d:
-	@mkdir -p "../build-$(ConfigurationName)/FromBook"
+../build-$(ConfigurationName)/Threads/.d:
+	@mkdir -p "../build-$(ConfigurationName)/Threads"
 
 PreBuild:
 
@@ -91,16 +91,16 @@ PreBuild:
 ##
 ## Objects
 ##
-../build-$(ConfigurationName)/FromBook/main.c$(ObjectSuffix): main.c ../build-$(ConfigurationName)/FromBook/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/FromBook/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
-../build-$(ConfigurationName)/FromBook/main.c$(DependSuffix): main.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/FromBook/main.c$(ObjectSuffix) -MF../build-$(ConfigurationName)/FromBook/main.c$(DependSuffix) -MM main.c
+../build-$(ConfigurationName)/Threads/main.c$(ObjectSuffix): main.c ../build-$(ConfigurationName)/Threads/main.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Threads/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+../build-$(ConfigurationName)/Threads/main.c$(DependSuffix): main.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Threads/main.c$(ObjectSuffix) -MF../build-$(ConfigurationName)/Threads/main.c$(DependSuffix) -MM main.c
 
-../build-$(ConfigurationName)/FromBook/main.c$(PreprocessSuffix): main.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/FromBook/main.c$(PreprocessSuffix) main.c
+../build-$(ConfigurationName)/Threads/main.c$(PreprocessSuffix): main.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Threads/main.c$(PreprocessSuffix) main.c
 
 
--include ../build-$(ConfigurationName)/FromBook//*$(DependSuffix)
+-include ../build-$(ConfigurationName)/Threads//*$(DependSuffix)
 ##
 ## Clean
 ##

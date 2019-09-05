@@ -26,7 +26,8 @@
   <Project Name="FunctionPointerArray" Path="FunctionPointerArray/FunctionPointerArray.project" Active="No"/>
   <Project Name="DeepShallowCopy" Path="DeepShallowCopy/DeepShallowCopy.project" Active="No"/>
   <Project Name="CommonProblems" Path="CommonProblems/CommonProblems.project" Active="No"/>
-  <Project Name="FromBook" Path="FromBook/FromBook.project" Active="Yes"/>
+  <Project Name="FromBook" Path="FromBook/FromBook.project" Active="No"/>
+  <Project Name="Threads" Path="Threads/Threads.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -57,6 +58,7 @@
       <Project Name="DeepShallowCopy" ConfigName="Debug"/>
       <Project Name="CommonProblems" ConfigName="Debug"/>
       <Project Name="FromBook" ConfigName="Debug"/>
+      <Project Name="Threads" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -87,6 +89,7 @@
       <Project Name="DeepShallowCopy" ConfigName="Release"/>
       <Project Name="CommonProblems" ConfigName="Release"/>
       <Project Name="FromBook" ConfigName="Release"/>
+      <Project Name="Threads" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
