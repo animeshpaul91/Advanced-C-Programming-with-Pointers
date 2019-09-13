@@ -28,7 +28,8 @@
   <Project Name="CommonProblems" Path="CommonProblems/CommonProblems.project" Active="No"/>
   <Project Name="FromBook" Path="FromBook/FromBook.project" Active="No"/>
   <Project Name="Threads" Path="Threads/Threads.project" Active="No"/>
-  <Project Name="Google" Path="Google/Google.project" Active="Yes"/>
+  <Project Name="Google" Path="Google/Google.project" Active="No"/>
+  <Project Name="Custom_Header_File" Path="Custom_Header_File/Custom_Header_File.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -61,6 +62,7 @@
       <Project Name="FromBook" ConfigName="Debug"/>
       <Project Name="Threads" ConfigName="Debug"/>
       <Project Name="Google" ConfigName="Debug"/>
+      <Project Name="Custom_Header_File" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -93,6 +95,7 @@
       <Project Name="FromBook" ConfigName="Release"/>
       <Project Name="Threads" ConfigName="Release"/>
       <Project Name="Google" ConfigName="Release"/>
+      <Project Name="Custom_Header_File" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

@@ -3,18 +3,18 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Threads
+ProjectName            :=Custom_Header_File
 ConfigurationName      :=Debug
 WorkspaceConfiguration := $(ConfigurationName)
 WorkspacePath          :=/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers
-ProjectPath            :=/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Threads
-IntermediateDirectory  :=../build-$(ConfigurationName)/Threads
-OutDir                 :=../build-$(ConfigurationName)/Threads
+ProjectPath            :=/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Custom_Header_File
+IntermediateDirectory  :=../build-$(ConfigurationName)/Custom_Header_File
+OutDir                 :=../build-$(ConfigurationName)/Custom_Header_File
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=animesh
-Date                   :=12/09/19
+Date                   :=13/09/19
 CodeLitePath           :=/home/animesh/.codelite
 LinkerName             :=/usr/bin/g++
 SharedObjectLinkerName :=/usr/bin/g++ -shared -fPIC
@@ -35,7 +35,7 @@ ArchiveOutputSwitch    :=
 PreprocessOnlySwitch   :=-E
 ObjectsFileList        :=$(IntermediateDirectory)/ObjectsList.txt
 PCHCompileFlags        :=
-LinkOptions            :=  -pthread
+LinkOptions            :=  
 IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). 
 IncludePCH             := 
 RcIncludePath          := 
@@ -60,7 +60,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=../build-$(ConfigurationName)/Threads/main.c$(ObjectSuffix) 
+Objects0=../build-$(ConfigurationName)/Custom_Header_File/main.c$(ObjectSuffix) 
 
 
 
@@ -72,18 +72,18 @@ Objects=$(Objects0)
 .PHONY: all clean PreBuild PrePreBuild PostBuild MakeIntermediateDirs
 all: MakeIntermediateDirs $(OutputFile)
 
-$(OutputFile): ../build-$(ConfigurationName)/Threads/.d $(Objects) 
-	@mkdir -p "../build-$(ConfigurationName)/Threads"
+$(OutputFile): ../build-$(ConfigurationName)/Custom_Header_File/.d $(Objects) 
+	@mkdir -p "../build-$(ConfigurationName)/Custom_Header_File"
 	@echo "" > $(IntermediateDirectory)/.d
 	@echo $(Objects0)  > $(ObjectsFileList)
 	$(LinkerName) $(OutputSwitch)$(OutputFile) @$(ObjectsFileList) $(LibPath) $(Libs) $(LinkOptions)
 
 MakeIntermediateDirs:
-	@mkdir -p "../build-$(ConfigurationName)/Threads"
+	@mkdir -p "../build-$(ConfigurationName)/Custom_Header_File"
 	@mkdir -p ""../build-$(ConfigurationName)/bin""
 
-../build-$(ConfigurationName)/Threads/.d:
-	@mkdir -p "../build-$(ConfigurationName)/Threads"
+../build-$(ConfigurationName)/Custom_Header_File/.d:
+	@mkdir -p "../build-$(ConfigurationName)/Custom_Header_File"
 
 PreBuild:
 
@@ -91,16 +91,16 @@ PreBuild:
 ##
 ## Objects
 ##
-../build-$(ConfigurationName)/Threads/main.c$(ObjectSuffix): main.c ../build-$(ConfigurationName)/Threads/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Threads/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
-../build-$(ConfigurationName)/Threads/main.c$(DependSuffix): main.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Threads/main.c$(ObjectSuffix) -MF../build-$(ConfigurationName)/Threads/main.c$(DependSuffix) -MM main.c
+../build-$(ConfigurationName)/Custom_Header_File/main.c$(ObjectSuffix): main.c ../build-$(ConfigurationName)/Custom_Header_File/main.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Custom_Header_File/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+../build-$(ConfigurationName)/Custom_Header_File/main.c$(DependSuffix): main.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Custom_Header_File/main.c$(ObjectSuffix) -MF../build-$(ConfigurationName)/Custom_Header_File/main.c$(DependSuffix) -MM main.c
 
-../build-$(ConfigurationName)/Threads/main.c$(PreprocessSuffix): main.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Threads/main.c$(PreprocessSuffix) main.c
+../build-$(ConfigurationName)/Custom_Header_File/main.c$(PreprocessSuffix): main.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Custom_Header_File/main.c$(PreprocessSuffix) main.c
 
 
--include ../build-$(ConfigurationName)/Threads//*$(DependSuffix)
+-include ../build-$(ConfigurationName)/Custom_Header_File//*$(DependSuffix)
 ##
 ## Clean
 ##

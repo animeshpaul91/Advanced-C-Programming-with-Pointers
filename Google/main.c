@@ -23,5 +23,3 @@ int main()
   puts(lin_search(arr, n, k));
   return (0);
 }
-  
-
