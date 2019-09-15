@@ -3,13 +3,13 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Custom_Header_File
+ProjectName            :=SearchinginC
 ConfigurationName      :=Debug
 WorkspaceConfiguration := $(ConfigurationName)
 WorkspacePath          :=/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers
-ProjectPath            :=/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Custom_Header_File
-IntermediateDirectory  :=../build-$(ConfigurationName)/Custom_Header_File
-OutDir                 :=../build-$(ConfigurationName)/Custom_Header_File
+ProjectPath            :=/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Google
+IntermediateDirectory  :=../build-$(ConfigurationName)/Google
+OutDir                 :=../build-$(ConfigurationName)/Google
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
@@ -60,7 +60,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=../build-$(ConfigurationName)/Custom_Header_File/main.c$(ObjectSuffix) 
+Objects0=../build-$(ConfigurationName)/Google/main.c$(ObjectSuffix) 
 
 
 
@@ -72,18 +72,18 @@ Objects=$(Objects0)
 .PHONY: all clean PreBuild PrePreBuild PostBuild MakeIntermediateDirs
 all: MakeIntermediateDirs $(OutputFile)
 
-$(OutputFile): ../build-$(ConfigurationName)/Custom_Header_File/.d $(Objects) 
-	@mkdir -p "../build-$(ConfigurationName)/Custom_Header_File"
+$(OutputFile): ../build-$(ConfigurationName)/Google/.d $(Objects) 
+	@mkdir -p "../build-$(ConfigurationName)/Google"
 	@echo "" > $(IntermediateDirectory)/.d
 	@echo $(Objects0)  > $(ObjectsFileList)
 	$(LinkerName) $(OutputSwitch)$(OutputFile) @$(ObjectsFileList) $(LibPath) $(Libs) $(LinkOptions)
 
 MakeIntermediateDirs:
-	@mkdir -p "../build-$(ConfigurationName)/Custom_Header_File"
+	@mkdir -p "../build-$(ConfigurationName)/Google"
 	@mkdir -p ""../build-$(ConfigurationName)/bin""
 
-../build-$(ConfigurationName)/Custom_Header_File/.d:
-	@mkdir -p "../build-$(ConfigurationName)/Custom_Header_File"
+../build-$(ConfigurationName)/Google/.d:
+	@mkdir -p "../build-$(ConfigurationName)/Google"
 
 PreBuild:
 
@@ -91,16 +91,16 @@ PreBuild:
 ##
 ## Objects
 ##
-../build-$(ConfigurationName)/Custom_Header_File/main.c$(ObjectSuffix): main.c ../build-$(ConfigurationName)/Custom_Header_File/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Custom_Header_File/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
-../build-$(ConfigurationName)/Custom_Header_File/main.c$(DependSuffix): main.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Custom_Header_File/main.c$(ObjectSuffix) -MF../build-$(ConfigurationName)/Custom_Header_File/main.c$(DependSuffix) -MM main.c
+../build-$(ConfigurationName)/Google/main.c$(ObjectSuffix): main.c ../build-$(ConfigurationName)/Google/main.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Google/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+../build-$(ConfigurationName)/Google/main.c$(DependSuffix): main.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Google/main.c$(ObjectSuffix) -MF../build-$(ConfigurationName)/Google/main.c$(DependSuffix) -MM main.c
 
-../build-$(ConfigurationName)/Custom_Header_File/main.c$(PreprocessSuffix): main.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Custom_Header_File/main.c$(PreprocessSuffix) main.c
+../build-$(ConfigurationName)/Google/main.c$(PreprocessSuffix): main.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Google/main.c$(PreprocessSuffix) main.c
 
 
--include ../build-$(ConfigurationName)/Custom_Header_File//*$(DependSuffix)
+-include ../build-$(ConfigurationName)/Google//*$(DependSuffix)
 ##
 ## Clean
 ##

@@ -2,9 +2,11 @@
 #include <stdlib.h>
 #include "animesh.h"
 
+
 int main(int argc, char **argv)
 {
 	int n,i,*arr,sum;
+	int *ret, t=2;
 	float avg;
 	printf("\nEnter the number of elements in the array\n");
 	scanf("%d", &n);
@@ -15,5 +17,8 @@ int main(int argc, char **argv)
 	}
 	multiple_return(arr, n, &sum, &avg);
 	printf("\nThe Sum is = %d and the average is = %f\n", sum, avg);
+	printf("\nStarting Leetcode Problem No. 1\n");
+	ret = twoSum(arr, n, 9, &t);
+	printf("%d\t%d\n", *ret, *(ret+1));
 	return (0);
 }
