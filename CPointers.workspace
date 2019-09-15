@@ -28,8 +28,8 @@
   <Project Name="CommonProblems" Path="CommonProblems/CommonProblems.project" Active="No"/>
   <Project Name="FromBook" Path="FromBook/FromBook.project" Active="No"/>
   <Project Name="Threads" Path="Threads/Threads.project" Active="No"/>
-  <Project Name="SearchinginC" Path="Google/Google.project" Active="Yes"/>
-  <Project Name="Custom_Header_File" Path="Custom_Header_File/Custom_Header_File.project" Active="No"/>
+  <Project Name="SearchinginC" Path="Google/Google.project" Active="No"/>
+  <Project Name="Custom_Header_File" Path="Custom_Header_File/Custom_Header_File.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>

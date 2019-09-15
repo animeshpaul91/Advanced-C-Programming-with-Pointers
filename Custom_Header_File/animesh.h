@@ -4,6 +4,8 @@ An illustration of how custom header files are used in C */
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
    int i,j;
    int *indices = (int *) malloc(*returnSize * sizeof(int));
+   indices[0] = 0;
+   indices[1] = 0; //default values in case the target id not located
     for (i = 0; i<numsSize - 1; i++)
       for (j = i+1; j<numsSize; j++)
           if (nums[i] + nums[j] == target)
