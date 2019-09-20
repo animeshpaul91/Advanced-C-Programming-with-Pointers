@@ -93,6 +93,7 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="animesh.c"/>
     <File Name="animesh.h"/>
     <File Name="main.c"/>
   </VirtualDirectory>

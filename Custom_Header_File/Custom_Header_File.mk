@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=animesh
-Date                   :=15/09/19
+Date                   :=20/09/19
 CodeLitePath           :=/home/animesh/.codelite
 LinkerName             :=/usr/bin/g++
 SharedObjectLinkerName :=/usr/bin/g++ -shared -fPIC
@@ -60,7 +60,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=../build-$(ConfigurationName)/Custom_Header_File/main.c$(ObjectSuffix) 
+Objects0=../build-$(ConfigurationName)/Custom_Header_File/animesh.c$(ObjectSuffix) ../build-$(ConfigurationName)/Custom_Header_File/main.c$(ObjectSuffix) 
 
 
 
@@ -91,6 +91,14 @@ PreBuild:
 ##
 ## Objects
 ##
+../build-$(ConfigurationName)/Custom_Header_File/animesh.c$(ObjectSuffix): animesh.c ../build-$(ConfigurationName)/Custom_Header_File/animesh.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Custom_Header_File/animesh.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/animesh.c$(ObjectSuffix) $(IncludePath)
+../build-$(ConfigurationName)/Custom_Header_File/animesh.c$(DependSuffix): animesh.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Custom_Header_File/animesh.c$(ObjectSuffix) -MF../build-$(ConfigurationName)/Custom_Header_File/animesh.c$(DependSuffix) -MM animesh.c
+
+../build-$(ConfigurationName)/Custom_Header_File/animesh.c$(PreprocessSuffix): animesh.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Custom_Header_File/animesh.c$(PreprocessSuffix) animesh.c
+
 ../build-$(ConfigurationName)/Custom_Header_File/main.c$(ObjectSuffix): main.c ../build-$(ConfigurationName)/Custom_Header_File/main.c$(DependSuffix)
 	$(CC) $(SourceSwitch) "/media/animesh/OS/From_Old_PC/Udemy/Advanced_C/Pointers/Custom_Header_File/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 ../build-$(ConfigurationName)/Custom_Header_File/main.c$(DependSuffix): main.c

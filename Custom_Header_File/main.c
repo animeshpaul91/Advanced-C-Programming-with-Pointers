@@ -7,6 +7,7 @@ int main(int argc, char **argv)
 	int n,i,*arr,sum;
 	int *ret, t=2, target;
 	float avg;
+	char str[10];
 	printf("\nEnter the number of elements in the array\n");
 	scanf("%d", &n);
 	arr = (int *)malloc(n * sizeof(int));
@@ -21,5 +22,8 @@ int main(int argc, char **argv)
 	scanf("%d", &target);
 	ret = twoSum(arr, n, target, &t);
 	printf("%d\t%d\n", *ret, *(ret+1));
+	printf("Enter a string\n");
+	scanf("%s", str);
+	printf("The length of %s is %d\n", str, len(str));
 	return (0);
 }
