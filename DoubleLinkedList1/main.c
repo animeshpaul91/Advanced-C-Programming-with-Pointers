@@ -21,7 +21,7 @@ int main() {
     // it would be inefficient.
 	// first indicate that the list has nothing in it 
 	// ... this is done by setting both list pointers to point to themselves
-
+	
 	head.next = (LISTITEM*)&head;
 	head.prev = (LISTITEM*)&head;
 	head.data = -1; // for clarity  - it isn't actually used
@@ -48,7 +48,7 @@ int main() {
 	while (temp != &head) {			// keep going until we've reach the end
 		printf("backward list item: current is %p; next is %p; prev is %p; data is %d\n", temp, temp->next, temp->prev, temp->data);
 		temp = temp->prev;			// move to the previous item in the list					
-	}
-
+	} 
+	
 	return 0;
 }

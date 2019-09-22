@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void hello(char *x)
+{
+	printf("%s\n", x);
+}
+
 int compare(const void* a, const void* b)
 {
      int int_a = *((int*)a);
@@ -41,6 +46,9 @@ int bin_search(int* arr, int p, int r, int x)
 
 int main()
 { int n,i,k,*arr;
+  typedef void (*fp)(char *); // A function Pointer
+  fp animesh = hello;
+  animesh((char *)"Hello Animesh");
   printf("\nEnter the number of elements in the array\n");
   scanf("%d", &n);
   arr = (int *)malloc(n * sizeof(int));
