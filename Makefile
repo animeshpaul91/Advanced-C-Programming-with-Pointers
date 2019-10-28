@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ SearchinginC - Debug ]----------"
-	@cd "Google" && "$(MAKE)" -f  "SearchinginC.mk"
+	@echo "----------Building project:[ Graph - Debug ]----------"
+	@cd "Graph" && "$(MAKE)" -f  "Graph.mk"
 clean:
-	@echo "----------Cleaning project:[ SearchinginC - Debug ]----------"
-	@cd "Google" && "$(MAKE)" -f  "SearchinginC.mk" clean
+	@echo "----------Cleaning project:[ Graph - Debug ]----------"
+	@cd "Graph" && "$(MAKE)" -f  "Graph.mk" clean
