@@ -3,6 +3,7 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="tokenize.h"/>
     <File Name="main.c"/>
   </VirtualDirectory>
   <Dependencies Name="Debug"/>

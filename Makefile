@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Graph - Debug ]----------"
-	@cd "Graph" && "$(MAKE)" -f  "Graph.mk"
+	@echo "----------Building project:[ StringsAndPointers - Debug ]----------"
+	@cd "StringsAndPointers" && "$(MAKE)" -f  "StringsAndPointers.mk"
 clean:
-	@echo "----------Cleaning project:[ Graph - Debug ]----------"
-	@cd "Graph" && "$(MAKE)" -f  "Graph.mk" clean
+	@echo "----------Cleaning project:[ StringsAndPointers - Debug ]----------"
+	@cd "StringsAndPointers" && "$(MAKE)" -f  "StringsAndPointers.mk" clean
