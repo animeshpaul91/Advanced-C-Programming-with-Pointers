@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="CPointers" Database="" Version="10.0.0">
   <Project Name="PointerBasics" Path="PointerBasics/PointerBasics.project" Active="No"/>
-  <Project Name="StringsAndPointers" Path="StringsAndPointers/StringsAndPointers.project" Active="Yes"/>
+  <Project Name="StringsAndPointers" Path="StringsAndPointers/StringsAndPointers.project" Active="No"/>
   <Project Name="ArraysAndAddresses" Path="ArraysAndAddresses/ArraysAndAddresses.project" Active="No"/>
   <Project Name="MultipleIndirection" Path="MultipleIndirection/MultipleIndirection.project" Active="No"/>
   <Project Name="MultipleIndirectionStrings" Path="MultipleIndirectionStrings/MultipleIndirectionStrings.project" Active="No"/>
@@ -31,6 +31,7 @@
   <Project Name="SearchinginC" Path="Google/Google.project" Active="No"/>
   <Project Name="Custom_Header_File" Path="Custom_Header_File/Custom_Header_File.project" Active="No"/>
   <Project Name="Graph" Path="Graph/Graph.project" Active="No"/>
+  <Project Name="Random" Path="Random/Random.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -65,6 +66,7 @@
       <Project Name="SearchinginC" ConfigName="Debug"/>
       <Project Name="Custom_Header_File" ConfigName="Debug"/>
       <Project Name="Graph" ConfigName="Debug"/>
+      <Project Name="Random" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -99,6 +101,7 @@
       <Project Name="SearchinginC" ConfigName="Release"/>
       <Project Name="Custom_Header_File" ConfigName="Release"/>
       <Project Name="Graph" ConfigName="Release"/>
+      <Project Name="Random" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
