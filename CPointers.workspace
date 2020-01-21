@@ -31,7 +31,8 @@
   <Project Name="SearchinginC" Path="Google/Google.project" Active="No"/>
   <Project Name="Custom_Header_File" Path="Custom_Header_File/Custom_Header_File.project" Active="No"/>
   <Project Name="Graph" Path="Graph/Graph.project" Active="No"/>
-  <Project Name="Random" Path="Random/Random.project" Active="Yes"/>
+  <Project Name="Random" Path="Random/Random.project" Active="No"/>
+  <Project Name="Misc" Path="Misc/Misc.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -67,6 +68,7 @@
       <Project Name="Custom_Header_File" ConfigName="Debug"/>
       <Project Name="Graph" ConfigName="Debug"/>
       <Project Name="Random" ConfigName="Debug"/>
+      <Project Name="Misc" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -102,6 +104,7 @@
       <Project Name="Custom_Header_File" ConfigName="Release"/>
       <Project Name="Graph" ConfigName="Release"/>
       <Project Name="Random" ConfigName="Release"/>
+      <Project Name="Misc" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
